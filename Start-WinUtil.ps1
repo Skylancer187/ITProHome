@@ -9,7 +9,7 @@
 	===========================================================================
 	.DESCRIPTION
 		A simple wrapper for ChrisTitusTech's WinUtil tool. Sorry, but I don't think $10 is fair for a wrapper.
-		His site is also loaded with adds, consider Paypal Direct or Ko-Fi for support instead of Ads/$10 fee.
+		His site is also loaded with ads, consider Paypal Direct or Ko-Fi for support instead of Ads/$10 fee.
 		Again, great work, but be a bit more friendly to the community.
 
 		I wrapped it for Free with my own license of Sapien PowerShell Studio Digital Certificate.
@@ -21,5 +21,5 @@
 # Enable TLS1.2 Client Configuration.
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-Invoke-Expression (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/ChrisTitusTech/winutil/main/winutil.ps1')
-
+# GitHub Raw content location removed, this URL will need to be updated with each new release.
+Invoke-Expression (New-Object Net.WebClient).DownloadString('https://github.com/ChrisTitusTech/winutil/releases/download/24.08.22/winutil.ps1')
